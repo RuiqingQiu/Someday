@@ -13,6 +13,7 @@
 		AA9CE57D1D9F902000041C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9CE57B1D9F902000041C7A /* Main.storyboard */; };
 		AA9CE57F1D9F902000041C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9CE57E1D9F902000041C7A /* Assets.xcassets */; };
 		AA9CE5821D9F902000041C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9CE5801D9F902000041C7A /* LaunchScreen.storyboard */; };
+		AA9CE58A1D9FA39800041C7A /* EventInfoInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CE5891D9FA39800041C7A /* EventInfoInputViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AA9CE57E1D9F902000041C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9CE5811D9F902000041C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA9CE5831D9F902000041C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9CE5891D9FA39800041C7A /* EventInfoInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventInfoInputViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				AA9CE5771D9F902000041C7A /* FirstViewController.swift */,
 				AA9CE5791D9F902000041C7A /* SecondViewController.swift */,
 				AA9CE57B1D9F902000041C7A /* Main.storyboard */,
+				AA9CE5891D9FA39800041C7A /* EventInfoInputViewController.swift */,
 				AA9CE57E1D9F902000041C7A /* Assets.xcassets */,
 				AA9CE5801D9F902000041C7A /* LaunchScreen.storyboard */,
 				AA9CE5831D9F902000041C7A /* Info.plist */,
@@ -142,6 +145,7 @@
 			files = (
 				AA9CE57A1D9F902000041C7A /* SecondViewController.swift in Sources */,
 				AA9CE5761D9F902000041C7A /* AppDelegate.swift in Sources */,
+				AA9CE58A1D9FA39800041C7A /* EventInfoInputViewController.swift in Sources */,
 				AA9CE5781D9F902000041C7A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +308,7 @@
 				AA9CE5881D9F902000041C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
