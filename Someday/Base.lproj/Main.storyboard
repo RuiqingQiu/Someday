@@ -60,10 +60,10 @@
             </objects>
             <point key="canvasLocation" x="750" y="-320"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Events View Controller-->
         <scene sceneID="VNB-0K-Aq1">
             <objects>
-                <viewController id="p0q-yj-64v" sceneMemberID="viewController">
+                <viewController id="p0q-yj-64v" customClass="CreateEventsViewController" customModule="Someday" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9ND-rb-VAO"/>
                         <viewControllerLayoutGuide type="bottom" id="bfW-Hb-BuF"/>
@@ -149,6 +149,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="EventNameEntered:" destination="p0q-yj-64v" eventType="editingChanged" id="reD-9Y-SiG"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AgM-pG-aHj">
                                 <frame key="frameInset" minX="139" minY="167" width="97" height="30"/>
@@ -156,6 +159,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="ActivitiesEntered:" destination="p0q-yj-64v" eventType="editingChanged" id="AWf-ek-haI"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BLQ-bg-qM6">
                                 <frame key="frameInset" minX="139" minY="198" width="97" height="30"/>
@@ -163,10 +169,18 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="LocationChanged:" destination="p0q-yj-64v" eventType="editingChanged" id="aPY-ew-eAh"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="InputActivities" destination="AgM-pG-aHj" id="vTD-Sh-a9P"/>
+                        <outlet property="InputEventName" destination="Pua-u8-64m" id="Jcz-i9-sHE"/>
+                        <outlet property="InputLocation" destination="BLQ-bg-qM6" id="ky4-8Z-Uev"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qTm-ph-bKQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1375FB411DA07BBF0029F285 /* CreateEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1375FB401DA07BBF0029F285 /* CreateEventsViewController.swift */; };
 		AA9CE5761D9F902000041C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CE5751D9F902000041C7A /* AppDelegate.swift */; };
 		AA9CE5781D9F902000041C7A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CE5771D9F902000041C7A /* FirstViewController.swift */; };
 		AA9CE57A1D9F902000041C7A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9CE5791D9F902000041C7A /* SecondViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1375FB401DA07BBF0029F285 /* CreateEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEventsViewController.swift; sourceTree = "<group>"; };
 		AA9CE5721D9F902000041C7A /* Someday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Someday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9CE5751D9F902000041C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA9CE5771D9F902000041C7A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				AA9CE5771D9F902000041C7A /* FirstViewController.swift */,
 				AA9CE5791D9F902000041C7A /* SecondViewController.swift */,
 				AA9CE57B1D9F902000041C7A /* Main.storyboard */,
+				1375FB401DA07BBF0029F285 /* CreateEventsViewController.swift */,
 				AA9CE5891D9FA39800041C7A /* EventInfoInputViewController.swift */,
 				AA9CE57E1D9F902000041C7A /* Assets.xcassets */,
 				AA9CE5801D9F902000041C7A /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 				AA9CE57A1D9F902000041C7A /* SecondViewController.swift in Sources */,
 				AA9CE5761D9F902000041C7A /* AppDelegate.swift in Sources */,
 				AA9CE58A1D9FA39800041C7A /* EventInfoInputViewController.swift in Sources */,
+				1375FB411DA07BBF0029F285 /* CreateEventsViewController.swift in Sources */,
 				AA9CE5781D9F902000041C7A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
